@@ -1,0 +1,22 @@
+@charset "utf-8";
+body {margin:0;padding:0; background-image: url("bg40.jpg"); }
+a{color: #ffffff;text-decoration:none;}
+a:hover{text-decoration: none;}
+header{width:100%; height: 8vmin;  font-size: 4vmin;}
+#welcome{line-height: 8vmin; color: #f9f9f9;}
+nav{width: 100%; overflow: hidden;  margin-top: 4vmin ; height: 20vmin;}
+.nav1{width: 10%; font-size: 3vmin;  float: left;
+    margin: 5.5vmin 11.5%; height: 8vmin;text-align: center; line-height: 8vmin;color: #f9f9f9; border-radius: 10px;text-align: center;}
+#nav1{position: relative;overflow: visible;}
+#nav2{position:absolute; left:0;top: 0; width: 100%; height: 200%; background-color: #000000; opacity: 0; border-radius: 10px;line-height:16vmin; text-align:center;}
+#nav2:hover{opacity: 0.7;}
+.mb{width: 70%;height: 60vmin; color: #f9f9f9; font-size: 3vmin;overflow: hidden; float: right;}
+.mb img{width: 15%;height: 30vmin; margin: 3vmin 0 0 10%; float: left;}
+.pt{line-height: 5vmin; margin: 3vmin 10%; float: left;}
+.pt img{width: 3vmin;height: 5vmin; float: left;}
+.demo{width: 10%; height: 60vmin;float: left; margin-bottom: 5vmin;}
+.demo1{width: 70%; height: 5vmin; position: relative; overflow: visible; background-color: #d0e9c6; margin: 6vmin 0; font-size: 3vmin; text-align: center;line-height: 5vmin; border-radius: 5px;}
+.introduce{position: absolute; left: 0; top:0; width:300%; height: 10vmin; background-color: #000000; opacity: 0; font-size: 3vmin;color: #f9f9f9;line-height: 10vmin;border-radius: 10px;}
+.introduce:hover{opacity: 0.7;}
+footer{clear: both; width: 100%; height: 5vmin; border-top: 3px solid #ffffff; margin-top:5vmin ;}
+#footer{text-align: center; line-height: 5vmin; font-size: 3vmin; color: #ffffff;}
